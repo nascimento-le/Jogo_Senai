@@ -5,6 +5,7 @@ import pygame as pg
 # pygame setup
 pg.init()
 screen = pg.display.set_mode((500, 500))
+pg.display.set_caption("Jogo da velha")
 clock = pg.time.Clock()
 running = True
 cor_fundo = 1 #azul
